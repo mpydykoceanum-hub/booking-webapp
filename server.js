@@ -5,7 +5,7 @@ const TelegramBot = require('node-telegram-bot-api');
 
 // ======= НАСТРОЙКИ =======
 const BOT_TOKEN = '7887423687:AAE3EYy6rswQX0kUmM1ZXRxGltjaAjKlvWQ';  // вставь сюда токен бота
-const ADMIN_ID = https://t.me/rainydave;           // твой Telegram ID, куда будут приходить заявки
+const ADMIN_ID = 2003301188;           // твой Telegram ID, куда будут приходить заявки
 
 const bot = new TelegramBot(BOT_TOKEN, { polling: true });
 
@@ -32,3 +32,4 @@ const PORT = process.env.PORT || 3000;
 app.listen(PORT, () => {
     console.log(`Server running on port ${PORT}`);
 });
+
