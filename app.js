@@ -1,4 +1,10 @@
 // === ИНИЦИАЛИЗАЦИЯ TELEGRAM WEBAPP ===
+
+let tg = window.Telegram.WebApp;
+tg.expand();
+tg.MainButton.textColor = "#FFFFFF";
+tg.MainButton.color = "#2cab37";
+
 const tg = window.Telegram?.WebApp;
 if (tg) {
   tg.expand();
@@ -110,3 +116,4 @@ if (tg){
     .catch(err => console.error(err));
   });
 }
+
